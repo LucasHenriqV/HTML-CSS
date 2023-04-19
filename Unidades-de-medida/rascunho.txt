@@ -1,0 +1,22 @@
+//medidas absolutas// (são medidas que não se baseia em nada)
+
+exemplo:
+
+cm centimetros
+mm milimetros
+in polegadas
+px pixels quase 100% das vezes se usa esse
+pt points
+pc picas
+
+//medidas relativas// (são medidas que são baseadas em algo)
+
+em (se baseia na medida do elemento pai)
+ex
+ch 
+rem (se baseia na raiz do documento no caso o (HTML) html-fontsize: 62.5% equivalente a 10px. agora fica facil pra calcular com rem )
+vw (o meu conteudo vai de 0 a 100 contando como % na visao da minha tela-ou seja meu conteudo vai caber em determinados tamanhos de telas baseando-se na % que eu colocar no meu conteudo(sempre se baseia na % que o tamanho da tela tiver))
+vh
+vmin
+vmax
+%

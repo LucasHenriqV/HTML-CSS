@@ -1,0 +1,73 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    font-family: "trebuchet MS", Helvetica, sans-serif;
+}
+a {
+    text-decoration: none ;
+    color: white;
+}
+li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 0px;
+    
+}
+ul{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*layout*/
+#container {
+    width: 100%;
+    margin: 0 auto;
+    background: #fff;
+    min-width: 720px;
+    max-width: 960px;
+}
+#rodateto {
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    background-color: #727272;
+}
+#conteudo {
+    width: 75%;
+    float: right;
+}
+#nav {
+    width: 23%;
+    float: left;
+    padding: 20px 0px;
+    background-color: #c5af4c;
+}
+#rodape {
+    clear: both;
+    padding: 5px;
+    background-color: #c4c4c4;
+}
+#principal {
+    float: left;
+    width: 63%;
+}
+#conteudo2 {
+    float: right;
+    width: 34%;
+    background-color: #d1d1d1;
+
+}
+#conteudo2  p {
+    padding: 20px ;
+}
+#principal p {
+    padding: 20px;
+}
+h2 {
+    text-align: center;
+}

@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/*line-indent faz com que o meu conteudo avance x px a frente */
+html{
+    font-size: 62.5%;
+}
+li a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    text-decoration: none;
+    background-color: orange;
+    width: 10rem ;
+    height: auto;
+    padding: 0.8rem;
+    font-size: 1.8rem;
+}
+li{
+    width: 10.3rem;
+   
+}
+a{
+    color: rgb(0, 0, 0) ;
+}
+li :hover {
+    color: white;
+    background-color: orangered;
+    width: 20rem;
+    transition: 0.8s;
+    border-radius: 5px;
+    
+} 

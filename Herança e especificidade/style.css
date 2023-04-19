@@ -1,0 +1,45 @@
+/* Henrança
+
+por padrão o border e o background não são herdado. A minha cor das letras elas são herdadas
+
+quando eu uso * é pq eu quero aplicar em tudo e todos tera a configuração que eu colocar
+*/
+
+
+body {
+    color: red;
+    border: 1px solid blue;
+    background-color: #333;
+}
+
+/*especificidade
+
+seletores iguais sempre sera aplicado o ultimo 
+*/
+p{
+    color: rgb(0, 255, 34) !important;
+}
+/*exceção o que é caracterizado como importante. não use isso sempre*/
+
+/*
+p{
+    color: rgb(89, 0, 255);
+}
+p{
+    color: black ;
+}*/
+
+
+
+/*
+se um seletor for mais especifico que outro a regra mais especifica será aplicada
+(terá precedência sobre regras mais gerais)
+*/
+*{
+    color: red;
+}
+
+h2{
+ color: blue;   
+}
+/*ID são mais especificos que class*/
